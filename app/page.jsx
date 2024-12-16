@@ -12,10 +12,6 @@ import {
 const Home = () => {
   const [isPrinting, setIsPrinting] = useState(false);
 
-  useEffect(() => {
-    document.title = 'RegEx Automata';
-  }, []);
-
   useLayoutEffect(() => {
     window.addEventListener('beforeprint', () => {
       setIsPrinting(true);
