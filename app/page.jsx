@@ -171,7 +171,7 @@ const Home = () => {
           <small>
             Made with <i className="fas fa-heart text-danger"></i> by{' '}
             <a href="https://github.com/hyphensaad" className="text-decoration-none">
-              Saad Mansoor
+              DS Solutions
             </a>
           </small>
         </footer>

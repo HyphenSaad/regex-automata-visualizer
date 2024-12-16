@@ -7,6 +7,19 @@ const Layout = ({ children }) => {
   return (
     <html suppressHydrationWarning>
       <head>
+        <title>RegEx Automata | DS Solutions</title>
+        <meta name="description" content="RegEx Automata" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Saad Mansoor" />
+        <meta name="roll-number" content="24015919-003" />
+        <meta name="department" content="Computer Science" />
+        <meta name="university" content="University of Gujrat, Hafiz Hayat Campus" />
+        <meta name="course" content="Advance Theory of Computation" />
+        <meta name="type" content="Term Project" />
+
+        <meta property="og:title" content="RegEx Automata" />
+        <meta property="og:description" content="RegEx Automata | By DS Solutions" />
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet" />
       </head>
