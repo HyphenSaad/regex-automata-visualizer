@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Instructions from './Instructions';
 
-const RegexInput = ({ onSubmit, regex, setRegex, error, setPrinting }) => {
+const RegexInput = ({ onSubmit, regex, setRegex, error }) => {
   const [showInstructions, setShowInstructions] = useState(false);
 
   return (
@@ -85,10 +85,7 @@ const RegexInput = ({ onSubmit, regex, setRegex, error, setPrinting }) => {
           </button>
           <button
             className="btn text-muted border-0 d-flex align-items-center hover-primary"
-            onClick={() => {
-              setPrinting(true);
-              window.print();
-            }}
+            onClick={() => window.print()}
             style={{ transition: 'color 0.2s' }}
           >
             <i className="fas fa-file-arrow-down me-2"></i>Export PDF
