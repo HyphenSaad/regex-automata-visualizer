@@ -2,6 +2,7 @@
 
 import { useRef } from 'react';
 import TransitionTable from './TransitionTable';
+import { downloadImage } from '../utils/helpers';
 
 const AutomataSection = ({ title, id, tableData, dotString, titleClass, isPrinting }) => {
   const graphRef = useRef(null);
