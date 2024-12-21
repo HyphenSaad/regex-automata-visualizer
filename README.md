@@ -63,7 +63,7 @@ A project that implements Thompson's construction algorithm to convert regular e
 
 The live version of the project is hosted on GitHub Pages and can be accessed at the following link:
 
-[RegEx Automata Visualizer](https://hyphensaad.github.io/regex-automata-visualizer/)
+[RegEx Automata Visualizer](https://regex003.netlify.app/)
 
 ## License
 
