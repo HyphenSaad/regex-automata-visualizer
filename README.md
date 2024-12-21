@@ -4,8 +4,8 @@ A project that implements Thompson's construction algorithm to convert regular e
 
 ## Project Information
 
-| ------------ | ---------------------------------------- |
 | Project Name | RegEx Automata                           |
+| ------------ | ---------------------------------------- |
 | Author       | Saad Mansoor                             |
 | Roll Number  | 24015919-003                             |
 | Department   | Department of Computer Science           |
